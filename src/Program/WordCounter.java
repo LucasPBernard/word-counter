@@ -12,7 +12,7 @@ public class WordCounter {
             //System.out.println(wordsSplit[i]);
         }
         //System.out.println(Arrays.toString(wordsSplit));
-        System.out.println(wordNumber);
+        //System.out.println(wordNumber);
         return wordNumber;
     }
 
