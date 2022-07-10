@@ -11,8 +11,8 @@ public class Main {
         String someWords = "Here are some words. Here are some other words, and even more words.";
         Path filePath = Path.of("../word-counter/someWords.txt");
         String someWordsFile = Files.readString(filePath);
-        String someWordsResult = "There are " + wordCounter(someWords) + " words in the string someWords";
-        String someWordsFileResult = "There are " + wordCounter(someWordsFile) + " words in the file someWords.txt";
+        String someWordsResult = "There are " + wordCounter(someWords) + " words in the string: someWords";
+        String someWordsFileResult = "There are " + wordCounter(someWordsFile) + " words in the file: someWords.txt";
 
         System.out.println();
         System.out.println("I can count the words in the string: someWords," +
