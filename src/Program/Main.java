@@ -10,10 +10,8 @@ public class Main {
         String someWords = "here are some other words. and even more words.";
         Path filePath = Path.of("../word-counter/someWords.txt");
         String someWordsFile = Files.readString(filePath);
-        String someWordsResult = "There are " + wordCounter(someWords) + " words in String someWords";
-        String someWordsFileResult = "There are " + wordCounter(someWordsFile) + " words in File someWords.txt";
-        wordCounter(someWords);
-        wordCounter(someWordsFile);
+        String someWordsResult = "There are " + wordCounter(someWords) + " words in the string someWords";
+        String someWordsFileResult = "There are " + wordCounter(someWordsFile) + " words in the file someWords.txt";
         System.out.println(someWordsResult);
         System.out.println(someWordsFileResult);
     }
