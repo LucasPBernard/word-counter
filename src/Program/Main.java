@@ -25,7 +25,7 @@ public class Main {
 
         Scanner input;
         input = new Scanner(System.in);
-        System.out.println("Type some words and I will count them.");
+        System.out.println("Click below, then type some words and I will count them.");
         String someWordsTyped = input.nextLine();
         String someWordsTypedResult = "You just typed " + wordCounter(someWordsTyped) + " word[s].";
         System.out.println(someWordsTypedResult);
