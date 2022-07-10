@@ -14,6 +14,7 @@ public class Main {
         String someWordsResult = "There are " + wordCounter(someWords) + " words in the string someWords";
         String someWordsFileResult = "There are " + wordCounter(someWordsFile) + " words in the file someWords.txt";
 
+        System.out.println();
         System.out.println("I can count the words in the string: someWords," +
                 " \nin the file: someWords.txt," +
                 " \nand in the words you type.");
